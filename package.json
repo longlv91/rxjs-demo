@@ -1,0 +1,29 @@
+{
+    "name": "rxjs-demos-webpack",
+    "version": "1.0.0",
+    "description": "RxJs demos with Webpack and Babel for the latest ECMAs at browser",
+    "main": "app.js",
+    "scripts": {
+        "start": "webpack && npm run server",
+        "server": "live-server --port=8000",
+        "watch": "webpack -w"
+    },
+    "author": "@longlv",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.0.0",
+        "@babel/plugin-transform-runtime": "^7.0.0",
+        "@babel/preset-env": "^7.0.0",
+        "babel-loader": "^8.0.2",
+        "webpack": "^4.17.2",
+        "webpack-bundle-analyzer": "^2.13.1",
+        "webpack-cli": "^3.1.0",
+        "webpack-dev-server": "^3.1.7"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.0.0",
+        "jquery": "^3.3.1",
+        "rxjs": "^6.3.1",
+        "rxjs-compat": "^6.3.1"
+    }
+}
