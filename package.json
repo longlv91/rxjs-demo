@@ -4,9 +4,9 @@
     "description": "RxJs demos with Webpack and Babel for the latest ECMAs at browser",
     "main": "app.js",
     "scripts": {
-        "start": "webpack && npm run server",
+        "start": "npm run build && npm run server",
         "server": "live-server --port=8000",
-        "watch": "webpack -w"
+        "build": "webpack"
     },
     "author": "@longlv",
     "license": "ISC",

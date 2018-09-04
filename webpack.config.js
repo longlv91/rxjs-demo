@@ -2,6 +2,7 @@ const path = require('path');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
+	mode: 'development',
 	entry: ['./src/app.js'],
 	output: {
 		path: path.join(__dirname, "dist"),
