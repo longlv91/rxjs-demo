@@ -16,7 +16,7 @@ btnStream.subscribe(
     console.log("click");
   },
   error => {
-    conole.log(error);
+    console.log(error);
   },
   () => {
     console.log("Completed");
@@ -147,7 +147,7 @@ myPromise$.subscribe(
   }
 )
 
-/* Interval, Timer,& Range */
+/* Interval, Timer & Range */
 /*const interval$ = interval(1000);
 
 interval$
